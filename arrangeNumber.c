@@ -57,7 +57,7 @@ void Max2Min (struct idArray *getArray)
         }
     }
     printf("Result:  ");
-    for (int i = (getArray->size)-1;i>0;i--){
+    for (int i = (getArray->size)-1;i>=0;i--){
         printf("%d ", getArray->array[i]);
     }
     printf("\n");
